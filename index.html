@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+    <h1 id="title">What's Your Coding Style?</h1>
+    <p id="description" class="description">What language are you learning?</p>
+    </header>
+    <div>
+    <form id="survey-form">
+        <label id="name-label" for="name"><b>Name: </b></label>
+        <input class="input" type="text" name="name" id="name" placeholder="enter your name here" required></input>
+      <br>
+      <br>
+        <label id="email-label" for="email"><b>Email: </b></label>
+        <input class="input" type="email" name="email" id="email" placeholder="enter your email here" required></input>
+      <br>
+      <br>
+        <label id="number-label" for="number"><b>Experience: </b></label>
+        <input class="input" id="number" type="number" min="0" max="52" placeholder="how many weeks have you been learning this language?"></input>
+        <br>
+        <br>
+        <p><b>What is the newest language you are learning?</b></p>
+        <label>
+          <select id="dropdown" name="language" required>
+            <option value="javascript">JavaScript</option>
+            <option value="ruby">Ruby</option>
+            <option value="react">React</option>
+            <option value="vue">Vue</option>
+            <option value="typescript">TypeScript</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+          <br>
+          <p><b>How much practice do you get?</b></p>
+          <input name="radio" type="radio" value="light" checked>0-4 hours per week</input>
+          <input name="radio" type="radio" value="medium" >5-9 hours per week</input>
+          <input name="radio" type="radio" value="heavy" >Over 10 hours per week</input>
+          <br>
+          <br>
+          <p><b>Why are you learning this language?</b></p>
+          <input type="checkbox" value="fun">For fun</input>
+          <input type="checkbox" value="school">For school</input>
+          <input type="checkbox" value="work">For work</input>
+          <input type="checkbox" value="other">Other</input>
+          <br>
+          <br>
+          <p><b>Any comments or suggestions?</b></p>
+          <textarea>Additional Comments</textarea>
+          <br>
+          <button type="submit" id="submit">Submit</button>
