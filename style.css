@@ -1,0 +1,46 @@
+body {
+  background-size: cover;
+  background-repeat: no-repreat;
+  background-position: center;
+  background-image: url()/*enter URL above*/
+}
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: ;
+}
+p {
+  font-family: Arial, sans-serif;
+  background-color:;
+  ;
+}
+.description {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+form {
+  font-family: Arial, san-serif;
+  line-height: 2;
+}
+textarea {
+  width:98%;
+}
+.input {
+  text-align:;
+  padding: .2rem;
+  background-color: lightgrey;
+  width:98%;
+  border-radius: 0.25rem;
+  line-height: 2;
+}
+select {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: .5rem;
+  background-color: lightgrey;
+  width:98%;
+  border-radius: 0.25rem;
+}
+div {
+  font-family: Arial, san-serif;
+}
